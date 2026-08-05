@@ -21,7 +21,7 @@ Two principles shape it:
 | I | AppSec Intro: A Dip into Offense | Weeks 2–3 |
 | II | Web & Network Foundations | Months 0.75–1.25 |
 | III | Core Vulnerability Classes | Months 1.25–2.5 |
-| IV | Security Testing & Tooling *(earns the BSCP)* | Months 2.5–3.75 |
+| IV | Security Testing & Tooling *(BSCP cert)* | Months 2.5–3.75 |
 | V | Cloud Security Fundamentals | Months 3.75–4.0 |
 | VI | Secure Code Review & Threat Modeling | Months 4.0–4.5 |
 | VII | CompTIA Security+ Certification | Months 4.5–5.0 |
