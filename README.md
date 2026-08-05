@@ -30,7 +30,7 @@ Two principles shape it:
 
 ## Pace
 
-Calibrated for roughly **4–5.5 months at about 35 study hours per week** — five focused study days a week, with about 5 months as the realistic midpoint. The compressed schedule is a deliberate choice: reaching interview-ready sooner, and into a stronger hiring window.
+Calibrated for roughly **4–5.5 months at about 35 study hours per week** — five focused study days a week, with about 5 months as the realistic midpoint.
 
 ## Related
 
