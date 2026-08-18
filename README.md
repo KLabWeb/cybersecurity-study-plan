@@ -1,6 +1,6 @@
 # Cybersecurity — Study Plan<br>Application Security Engineering
 
-A structured, self-directed plan for transitioning from full-stack web development into an entry-level **application security (AppSec) engineer** role, in roughly 4–5.5 months at about 35 hours per week.
+A structured, self-directed plan for transitioning from full-stack web development into an entry-level **application security (AppSec) engineer** role, in roughly 6–8 months at about 25 study hours per week.
 
 The full plan lives in this repository as a PDF: **[Application_Security_Study_Plan.pdf](./Study_Plan_-_Final.pdf)**.
 
@@ -17,20 +17,20 @@ Two principles shape it:
 
 | Phase | Focus | Timing |
 | --- | --- | --- |
-| 0 | Pre-Study: Foundations | Weeks 1–2 |
-| I | AppSec Intro: A Dip into Offense | Weeks 2–3 |
-| II | Web & Network Foundations | Months 0.75–1.25 |
-| III | Core Vulnerability Classes | Months 1.25–2.5 |
-| IV | Security Testing & Tooling *(BSCP cert)* | Months 2.5–3.75 |
-| V | Cloud Security Fundamentals | Months 3.75–4.0 |
-| VI | Secure Code Review & Threat Modeling | Months 4.0–4.5 |
-| VII | CompTIA Security+ Certification | Months 4.5–5.0 |
-| VIII | Interview Preparation & Interviewing | Months 5.0–5.5 |
-| IX | Expected First Days on the Job | Months 5.5+ |
+| 0 | Pre-Study: Foundations | Weeks 1–3 |
+| I | AppSec Intro: A Dip into Offense | Week 4 |
+| II | Web & Network Foundations | Weeks 5–7 |
+| III | Core Vulnerability Classes | Weeks 8–14 |
+| IV | Security Testing & Tooling *(BSCP cert)* | Weeks 15–21 |
+| V | Cloud Security Fundamentals | Week 22 |
+| VI | Secure Code Review & Threat Modeling | Weeks 23–25 |
+| VII | CompTIA Security+ Certification | Weeks 26–28 |
+| VIII | Interview Preparation & Interviewing | Weeks 29–32 |
+| IX | Expected First Days on the Job | Week 33+ |
 
 ## Pace
 
-Calibrated for roughly **4–5.5 months at about 35 study hours per week** — five focused study days a week, with about 5 months as the realistic midpoint.
+Calibrated for roughly **6–8 months at about 25 study hours per week** — five focused study days a week at 5 hours a day, with about 7 months as the realistic midpoint.
 
 ## Related
 
