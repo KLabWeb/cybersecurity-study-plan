@@ -2,7 +2,7 @@
 
 A structured, self-directed plan for transitioning from full-stack web development into an entry-level **application security (AppSec) engineer** role, in roughly 6–8 months at about 25 study hours per week.
 
-The full plan lives in this repository as a PDF: **[Application_Security_Study_Plan.pdf](./Study_Plan_-_Final.pdf)**.
+The full plan lives in this repository as a PDF: **[Study_Plan_-_Final.pdf](./Study_Plan_-_Final.pdf)**.
 
 ## Overview
 
@@ -19,14 +19,14 @@ Two principles shape it:
 | --- | --- | --- |
 | 0 | Pre-Study: Foundations | Weeks 1–3 |
 | I | AppSec Intro: A Dip into Offense | Week 4 |
-| II | Web & Network Foundations | Weeks 5–7 |
-| III | Core Vulnerability Classes | Weeks 8–14 |
-| IV | Security Testing & Tooling *(BSCP cert)* | Weeks 15–21 |
-| V | Cloud Security Fundamentals | Week 22 |
-| VI | Secure Code Review & Threat Modeling | Weeks 23–25 |
-| VII | CompTIA Security+ Certification | Weeks 26–28 |
-| VIII | Interview Preparation & Interviewing | Weeks 29–32 |
-| IX | Expected First Days on the Job | Week 33+ |
+| II | Web & Network Foundations | Weeks 5–8 |
+| III | Core Vulnerability Classes | Weeks 9–15 |
+| IV | Security Testing & Tooling *(BSCP cert)* | Weeks 16–22 |
+| V | Cloud Security Fundamentals | Week 23 |
+| VI | Secure Code Review & Threat Modeling | Weeks 24–26 |
+| VII | CompTIA Security+ Certification | Weeks 27–30 |
+| VIII | Interview Preparation & Interviewing | Weeks 31–34 |
+| IX | Expected First Days on the Job | Week 35+ |
 
 ## Pace
 
