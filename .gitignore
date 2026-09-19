@@ -1,1 +1,6 @@
 CLAUDE.md
+# Private working backups (handoff, reviews, memory). Never push.
+*PRIVATE*
+
+# Scratch downloads (site rips can carry logged-in state). Never push.
+Temp/
