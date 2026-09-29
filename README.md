@@ -1,6 +1,6 @@
 # Cybersecurity — Study Plan<br>Application Security Engineering
 
-A structured, self-directed plan for transitioning from full-stack web development into an entry-level **application security (AppSec) engineer** role, in roughly 6–8 months at about 25 study hours per week.
+A structured, self-directed plan for transitioning from full-stack web development into an entry-level **application security (AppSec) engineer** role, in roughly 8–9 months at about 25 study hours per week.
 
 The full plan lives in this repository as a PDF: **[Study_Plan_-_Final.pdf](./Study_Plan_-_Final.pdf)**.
 
@@ -30,7 +30,7 @@ Two principles shape it:
 
 ## Pace
 
-Calibrated for roughly **6–8 months at about 25 study hours per week** — five focused study days a week at 5 hours a day, with about 7 months as the realistic midpoint.
+Calibrated for roughly **8–9 months at about 25 study hours per week** — five focused study days a week at 5 hours a day, with 8 months as the realistic case.
 
 ## Related
 
