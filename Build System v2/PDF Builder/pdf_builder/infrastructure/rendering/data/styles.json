@@ -1,0 +1,17 @@
+{
+    "contents_entry": {"fontSize": 9, "leading": 12, "textColor": "DARK", "leftIndent": 0, "spaceAfter": 1},
+    "contents_subsection": {"fontSize": 8, "leading": 11, "textColor": "MID_GRAY", "leftIndent": 16, "spaceAfter": 0},
+    "section_title": {"fontSize": 18, "leading": 22, "textColor": "WHITE", "fontName": "Helvetica-Bold"},
+    "section_numeral": {"fontSize": 11, "leading": 14, "textColor": "SOFT_BLUE", "fontName": "Helvetica-Bold", "alignment": "center"},
+    "heading": {"fontSize": 12, "leading": 15, "textColor": "ACCENT", "fontName": "Helvetica-Bold", "spaceBefore": 12, "spaceAfter": 2},
+    "subsection_heading": {"fontSize": 10, "leading": 13, "textColor": "DARK", "fontName": "Helvetica-Bold", "spaceBefore": 8, "spaceAfter": 3},
+    "body": {"fontSize": 9.5, "leading": 14, "textColor": "DARK", "alignment": "justify", "spaceAfter": 4, "allowWidows": 0, "allowOrphans": 0},
+    "bullet": {"fontSize": 9.5, "leading": 14, "textColor": "DARK", "leftIndent": 14, "firstLineIndent": 0, "spaceAfter": 3, "allowWidows": 0, "allowOrphans": 0},
+    "small_bullet": {"fontSize": 9, "leading": 13, "textColor": "MID_GRAY", "leftIndent": 24, "firstLineIndent": 0, "spaceAfter": 4, "allowWidows": 0, "allowOrphans": 0},
+    "note_text": {"fontSize": 9, "leading": 13, "textColor": "NOTE_TEXT", "alignment": "justify", "allowWidows": 0, "allowOrphans": 0},
+    "table_header": {"fontSize": 9, "leading": 11, "textColor": "WHITE", "fontName": "Helvetica-Bold", "alignment": "center"},
+    "table_cell": {"fontSize": 9, "leading": 12, "textColor": "DARK", "alignment": "left"},
+    "table_cell_centred": {"fontSize": 9, "leading": 12, "textColor": "DARK", "alignment": "center"},
+    "caption": {"fontSize": 8, "leading": 11, "textColor": "CAPTION_GRAY", "alignment": "center"},
+    "banner_duration": {"fontSize": 10, "leading": 14, "textColor": "SOFT_BLUE", "fontName": "Helvetica"}
+}

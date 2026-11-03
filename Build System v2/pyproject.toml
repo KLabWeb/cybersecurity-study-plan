@@ -1,0 +1,132 @@
+# Code quality rules for all code in the Build System.
+# Run all of them with: bash Linters/check_all.sh
+
+[tool.ruff]
+target-version = "py312"
+line-length = 100
+
+[tool.ruff.lint]
+preview = true                # needed for PLR1702, nesting depth
+explicit-preview-rules = true # only preview rules named below are used
+select = [
+    "PLR1702", # too many nested blocks (preview)
+    "E", "W",  # PEP 8 layout
+    "F",       # pyflakes: unused names, undefined names
+    "N",       # PEP 8 naming
+    "D",       # docstrings
+    "ANN",     # type hints on every function
+    "T20",     # no print calls
+    "C90",     # complexity
+    "PL",      # pylint subset: global statement, size limits, magic values
+    "RUF",     # ruff rules: mutable class defaults
+    "B",       # common bugs
+    "S",       # security smells
+    "ARG",     # unused arguments
+    "SIM",     # simplifications
+    "RET",     # return style
+    "ERA",     # commented-out code
+    "I",       # import order
+    "UP",      # modern syntax
+    "PT",      # pytest style
+]
+
+[tool.ruff.lint.isort]
+known-first-party = ["code_rules", "pdf_builder"]
+
+[tool.ruff.lint.flake8-pytest-style]
+parametrize-values-type = "tuple"  # wemake demands tuples as arguments (WPS527)
+
+[tool.ruff.lint.pydocstyle]
+convention = "google"
+
+[tool.ruff.lint.mccabe]
+max-complexity = 5
+
+[tool.ruff.lint.pylint]
+max-args = 4
+max-branches = 6
+max-returns = 3
+max-statements = 20
+max-nested-blocks = 2
+
+[tool.ruff.lint.per-file-ignores]
+"**/tests/**" = ["S101", "D103", "PLR2004"]  # tests use assert, small names and literal values
+
+[tool.pylint.main]
+ignore-paths = ["\\.venv/.*"]
+
+[tool.pylint."messages control"]
+# Ruff carries the style rules; pylint adds the design checks ruff lacks.
+disable = ["all"]
+enable = [
+    "too-many-instance-attributes",    # R0902
+    "too-many-public-methods",         # R0904
+    "attribute-defined-outside-init",  # W0201
+    "duplicate-code",                  # R0801
+    "cyclic-import",                   # R0401
+    "global-statement",                # W0603
+]
+
+[tool.pylint.design]
+max-attributes = 7
+max-public-methods = 20
+
+[tool.mypy]
+strict = true
+mypy_path = ["Linters", "PDF Builder", "PDF Builder/tests"]
+exclude = ["^\\.venv/"]
+
+[tool.pytest.ini_options]
+addopts = "--strict-markers"
+pythonpath = ["Linters", "PDF Builder", "PDF Builder/tests"]
+
+[tool.coverage.run]
+# The record of a test run is an output, never read back: it goes into an ignored cache folder.
+data_file = ".coverage_cache/data"
+
+[tool.coverage.report]
+fail_under = 90
+show_missing = true
+# Lines that are never meant to run: the entry-file guard.
+exclude_also = [
+    'if __name__ == "__main__":',
+]
+
+[tool.complexipy]
+# Cognitive complexity: how hard a function is for a person to follow. The tool's default is 15.
+paths = ["."]
+exclude = [".venv"]
+max-complexity-allowed = 5
+
+[tool.vulture]
+# Dead code: functions, classes, variables and imports nothing uses. 60 is the strictest setting.
+paths = ["Linters", "PDF Builder"]
+exclude = ["*/.venv/"]
+min_confidence = 60
+
+[tool.importlinter]
+root_packages = ["code_rules", "pdf_builder"]
+
+[[tool.importlinter.contracts]]
+name = "Linters: DDD layers, the domain depends on nothing"
+type = "layers"
+layers = [
+    "code_rules.interface",
+    "code_rules.infrastructure",
+    "code_rules.application",
+    "code_rules.domain",
+]
+
+[[tool.importlinter.contracts]]
+name = "PDF Builder: DDD layers, the domain depends on nothing"
+type = "layers"
+layers = [
+    "pdf_builder.interface",
+    "pdf_builder.infrastructure",
+    "pdf_builder.application",
+    "pdf_builder.domain",
+]
+
+[tool.code_rules]
+# Classes allowed to hold changing state, each with its reason. Empty: no exception is granted.
+allowed_stateful = []

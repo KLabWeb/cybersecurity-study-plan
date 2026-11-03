@@ -2,7 +2,7 @@
 
 A structured, self-directed plan for transitioning from full-stack web development into an entry-level **application security (AppSec) engineer** role, in roughly 8–9 months at about 25 study hours per week.
 
-The full plan lives in this repository as a PDF: **[Study_Plan_-_Final.pdf](./Study_Plan_-_Final.pdf)**.
+The full plan lives in this repository as a PDF: **[Study_Plan_-_Final.pdf](./Study%20Plan%20PDFs/Study_Plan_-_Final.pdf)**.
 
 ## Overview
 

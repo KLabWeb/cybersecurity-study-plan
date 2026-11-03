@@ -1,0 +1,9 @@
+.venv/
+*cache*
+*PRIVATE*
+
+# Private data of the Plan Validator and the work record. Never push.
+Plan Validator/content/
+Plan Validator/sources/
+Work Records/
+PDF Builder/docs/CHANGELOG_APPLIED.md

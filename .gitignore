@@ -1,6 +1,5 @@
 CLAUDE.md
-# Private working backups (handoff, reviews, memory). Never push.
-*PRIVATE*
+Build System v1/
 
-# Scratch downloads (site rips can carry logged-in state). Never push.
-Build Files/
+# Old delivery zips hold private build files. Never push.
+Study Plan PDFs/**/*.zip
